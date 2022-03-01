@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: rgb(92, 92, 92);
+}
+
+body{
+    background: linear-gradient(20deg, rgb(16, 119, 76), rgb(255, 196, 0));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 230px 0 100px 0;
+}
+
+h4{
+  margin: 0 0 3px 0;
+}
+
+.App > div{
+    width: 350px;
+    padding: 20px 30px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin: -90px 0 20px 0;
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+label, .footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 0 0;
+  align-items: center;
+}
+
+label:first-child{
+  border: none;
+}
+
+label{
+  border-bottom: 1px solid;
+}
+
+label > div{
+  display: flex;
+}
+
+p{
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"]{
+  margin: auto 0;
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"]{
+  width: 80%;
+}
+
+@media (max-width: 385px){
+  *{
+      font-size: 15px;
+  }
+  .App > div{
+    width: 320px;
+  }
+}
